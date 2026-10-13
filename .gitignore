@@ -1,0 +1,22 @@
+# .gitignore for ls(1) project
+# Excludes compiled binaries, object files, and system-generated files.
+
+# Compiled binary
+ls
+
+# Object files
+*.o
+
+# Debug / core dumps
+core
+core.*
+
+# Editor backup/temp files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDE directories
+.vscode/
+.idea/
